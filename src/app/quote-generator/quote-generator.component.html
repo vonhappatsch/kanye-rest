@@ -1,0 +1,17 @@
+<header>
+  <div class="header__info">
+    <h3 class="header__info__title">Feeling a little unREST?<br>
+    Get some Kanye REST with this Kanye's wisdom generator:</h3>  
+  </div>
+</header>
+<main>
+  <section>
+      <div class="section__wrapper">
+        <div class="section__wrapper__quote">
+          <button class="section__wrapper__quote__button" changeOpacity (click)="copyContent(quote)">copy</button>
+          <p class="section__wrapper__quote__content" *ngIf="quote">"{{quote.quote}}"</p>
+        </div>
+        <button class="section__wrapper__button" changeOpacity (click)="getQuote()">stronger</button>  
+      </div>
+  </section>
+</main>
