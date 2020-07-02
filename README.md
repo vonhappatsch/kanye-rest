@@ -6,4 +6,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Check it [Here~](https://vonhappatsch.github.io/kanye-rest/)
 
-[Imgur](https://imgur.com/Xj2u1pb)
+![versão desktop](https://i.imgur.com/Xj2u1pb.png)
