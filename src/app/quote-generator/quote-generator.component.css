@@ -38,7 +38,8 @@ section {
 
 .section__wrapper__quote {
     background-color: #0F0E0E;
-    min-height: 15vh;
+    height: 30vh;
+    max-height: 40vh;
     display: flex;
     flex-direction: column;
     padding: 1em;
@@ -57,15 +58,16 @@ section {
     border: none;
     font-weight: bold;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .section__wrapper__quote__content {
     align-self: center;
-    font-size: 1.2em;
-    color: #FBF5F3;
     padding-left: 0.5em;
     padding-right: 0.5em;
+    font-size: 1.2em;
+    text-align: center;
+    color: #FBF5F3;
 }
 
 .section__wrapper__button {
@@ -77,7 +79,7 @@ section {
     font-size: 1em;
     text-transform: uppercase;
     cursor: pointer;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 @media screen and (min-width: 1024px) {
@@ -93,5 +95,13 @@ section {
 
     .section__wrapper__quote {
         height: 20vh;
+    }
+
+    .section__wrapper__quote__button {
+        opacity: 0.6;
+    }
+
+    .section__wrapper__button {
+        opacity: 0.6;
     }
 }
