@@ -9,6 +9,8 @@ import { ToastrService } from 'ngx-toastr';
   templateUrl: './quote-generator.component.html',
   styleUrls: ['./quote-generator.component.css']
 })
+
+
 export class QuoteGeneratorComponent implements OnInit {
   quote: IQuote;
 
